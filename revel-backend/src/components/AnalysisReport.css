@@ -1,0 +1,75 @@
+.analysis-report {
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.report-section {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.report-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.report-section h4 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.color-values {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.color-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 20px;
+  border: 3px solid #ddd;
+}
+
+.color-details {
+  font-family: monospace;
+}
+
+.color-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.report-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.report-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.report-section li:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .color-values {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .color-box {
+    margin-bottom: 15px;
+  }
+}

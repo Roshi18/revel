@@ -1,0 +1,27 @@
+/* ... existing styles ... */
+
+.analyzer-section {
+  width: 100%;
+  padding: var(--dl-layout-space-fiveunits);
+  background-color: var(--dl-color-theme-secondary2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.analyzer-section > div {
+  max-width: var(--dl-layout-size-maxwidth);
+  width: 100%;
+}
+
+@media(max-width: 767px) {
+  .analyzer-section {
+    padding: var(--dl-layout-space-threeunits);
+  }
+}
+
+@media(max-width: 479px) {
+  .analyzer-section {
+    padding: var(--dl-layout-space-oneandhalfunits);
+  }
+}
